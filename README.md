@@ -1,4 +1,7 @@
+** Switch Branch for EA-STL. Use it for small functions only and light work and it may affect the final build .**
+
 # This project works with Unreal 5.6.1 and tested on Mac Silicon (M4) . 
+
 
 # 🎮 Unreal Optimization Guide (1080p / 60 FPS on GTX 970–1060)
 
