@@ -1,3 +1,5 @@
+### This template is made with a help of Experienced devs working at Epic Games for 12 years and above 
+
 # This project works with Unreal 5.6.1 and tested on Mac Silicon (M4) . Integrated EA- STL (Electronics Art Standard Template Library) and also contains Multhreading code snippets.
 
 
@@ -6,7 +8,7 @@
 
 
 
-# 🎮 Unreal Optimization Guide and Practice  (1080p / 60 FPS on GTX 970–1060)
+# Unreal Optimization Guide and Practice  (1080p / 60 FPS on GTX 970–1060)
 
 
 
@@ -15,7 +17,7 @@ It compiles performance budgets, best practices, and proven optimization techniq
 
 ---
 
-## ⚙️ Performance Budgets
+##  Performance Budgets
 
 | Metric | Target |
 |--------|---------|
@@ -26,7 +28,7 @@ It compiles performance budgets, best practices, and proven optimization techniq
 
 ---
 
-## 🧱 Geometry & World
+##  Geometry & World
 
 - **Disable Nanite** for GTX-class GPUs.  
 - Use **Hierarchical Instanced Static Meshes (HISMA)** or **Instanced Static Meshes (ISM)** for repeated assets.  
@@ -40,7 +42,7 @@ It compiles performance budgets, best practices, and proven optimization techniq
 
 ---
 
-## 💡 Lighting
+##  Lighting
 
 - Prefer **1 dynamic key light + baked fill lighting**.  
 - Use a **static skylight** with **baked cubemaps** (no real-time reflection captures).  
@@ -54,7 +56,7 @@ It compiles performance budgets, best practices, and proven optimization techniq
 
 ---
 
-## 🧩 Materials & Shading
+##  Materials & Shading
 
 - Keep materials ≤ 6–8 texture samples.  
 - **No tessellation.**  
@@ -69,7 +71,7 @@ It compiles performance budgets, best practices, and proven optimization techniq
 
 ---
 
-## 🧠 Memory Management
+##  Memory Management
 
 - **Pack multiple masks** into one texture (slice maps).  
 - **Avoid RGBA textures** when unused channels exist.  
@@ -80,7 +82,7 @@ It compiles performance budgets, best practices, and proven optimization techniq
 
 ---
 
-## 🦴 Skeletal Meshes
+##  Skeletal Meshes
 
 - **Reduce bone count** aggressively.  
 - **Blendshapes only for cinematics.**  
@@ -90,7 +92,7 @@ It compiles performance budgets, best practices, and proven optimization techniq
 
 ---
 
-## 💥 Dynamics & VFX
+##  Dynamics & VFX
 
 - **Chaos Physics/Destruction** is expensive — bake results where possible.  
 - **Cloth:** avoid Chaos Cloth; use **dynamic bone chains** or pre-baked simulations.  
@@ -101,7 +103,7 @@ It compiles performance budgets, best practices, and proven optimization techniq
 
 ---
 
-## 🎨 Post-Processing
+##  Post-Processing
 
 - **Bloom:** Low  
 - **Chromatic Aberration:** Off  
@@ -112,7 +114,7 @@ It compiles performance budgets, best practices, and proven optimization techniq
 
 ---
 
-## 🧰 Scalability & Quality Settings
+## Scalability & Quality Settings
 
 Default target: **Medium**
 
@@ -128,7 +130,7 @@ Default target: **Medium**
 
 ---
 
-### 🔧 Shipping Low-Spec Toggle
+###  Shipping Low-Spec Toggle
 For ultra-low hardware fallback:
 
 ```
@@ -140,7 +142,7 @@ r.Shadow.MaxResolution 1024
 
 ---
 
-## 🧪 Profiling & Testing
+##  Profiling & Testing
 
 - Use **Stat Unit**, **Stat GPU**, **ProfileGPU**, and **Session Frontend** early in development.  
 - Test builds on **real GTX 970/1060 hardware** — synthetic scaling isn’t reliable.  
@@ -148,20 +150,20 @@ r.Shadow.MaxResolution 1024
 
 ---
 
-## 🧭 Engine Choice
+##  Engine Choice
 
 💡 **Alternative:** Use **Unreal Engine 4.27** for lighter rendering and no Lumen overhead — ideal for GTX and midrange GPUs.
 
 ---
 
-## 🧩 Custom Scalability Tiers
+##  Custom Scalability Tiers
 
 Define your own scalability tiers in `Scalability.ini` rather than relying on Epic’s defaults.  
 Fine-tune toggles for post, shadows, and material complexity per-tier for consistent visual quality across low/mid hardware.
 
 ---
 
-## 🧱 Summary
+## Summary
 
 **Goal:** Stable 60 FPS @ 1080p on GTX 970/1060  
 **Core Principles:**
