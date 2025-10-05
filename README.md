@@ -1,4 +1,8 @@
-### This template is made with a help of Experienced devs working at Epic Games for 12 years and above 
+
+  *You can use EA-STL by changing branch and then download it . If you want to collab then pull request or put a issue in Issues tab .*
+
+      
+### This template is made with a help of Experienced devs working at Epic Games for 12 years and above and it will be updated .
 
 # This project works with Unreal 5.6.1 and tested on Mac Silicon (M4) . Integrated EA- STL (Electronics Art Standard Template Library) and also contains Multhreading code snippets.
 
