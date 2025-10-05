@@ -1,6 +1,12 @@
-# This project works with Unreal 5.6.1 and tested on Mac Silicon (M4) . 
+# This project works with Unreal 5.6.1 and tested on Mac Silicon (M4) . Integrated EA- STL (Electronics Art Standard Template Library) and also contains Multhreading code snippets.
 
-# 🎮 Unreal Optimization Guide (1080p / 60 FPS on GTX 970–1060)
+
+
+
+
+
+
+# 🎮 Unreal Optimization Guide and Practice  (1080p / 60 FPS on GTX 970–1060)
 
 
 
