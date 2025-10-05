@@ -3,7 +3,7 @@
 
 #include "Multi_Threading.h"
 #include "Async/Async.h"
-#include <EASTL/string.h>
+
 
 
 
@@ -25,8 +25,7 @@ void AMulti_Threading::BeginPlay()
     
     DoBackgroundWork();
 
-    eastl::string MyString = "Hello from EASTL!";
-    UE_LOG(LogTemp, Warning, TEXT("%s"), *FString(MyString.c_str()));
+    
 
 }
 
