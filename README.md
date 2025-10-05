@@ -19,6 +19,10 @@
 This guide is designed for developers targeting **1080p / 60 FPS** performance on **GTX 970/1060-class GPUs** using **Unreal Engine 4.27–5.x**.  
 It compiles performance budgets, best practices, and proven optimization techniques for maintaining visual quality while keeping frame times stable.
 
+
+
+ ## Use DirectX 11 instead of 12 on Windows plalform 
+
 ---
 
 ##  Performance Budgets
