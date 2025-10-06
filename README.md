@@ -1,4 +1,13 @@
 
+
+### Already made a project? Then just go to `Config/DefaultEngine.ini`
+
+
+`Copy [/Script/Engine.RendererSettings] part till the next [] and paste into your DefaultEngine.ini of the project you are working into ` 
+          
+
+
+
   *If you want to collab then pull request or put a issue in Issues tab .*
 
       
@@ -35,7 +44,9 @@ It compiles performance budgets, best practices, and proven optimization techniq
  ##                           ( OR )
 
 # Official AMD FS3 for Unreal Engine by AMD 
-  Use AMD FS3 provided by AMD but only works for **Windows** / **Vulkan** builds
+  Use AMD FS3 provided by AMD but only works for **Windows** / **Vulkan** builds (DirectX 12/Vulkan)
+
+  #### **DirectX 11 not supported except for FSR1 **
 
      
          
