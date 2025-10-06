@@ -1,5 +1,5 @@
 
-  *You can use EA-STL by changing branch and then download it . If you want to collab then pull request or put a issue in Issues tab .*
+  *If you want to collab then pull request or put a issue in Issues tab .*
 
       
 ### This template is made with a help of Experienced devs working at Epic Games for 12 years and above and it will be updated .
