@@ -3,7 +3,16 @@
 ### Already made a project? Then just go to `Config/DefaultEngine.ini` of this current Github repo project
 
 
-`Copy [/Script/Engine.RendererSettings] part till the next [] and paste into your DefaultEngine.ini  you are working into the project you are working on your local PC . 
+`Copy [/Script/Engine.RendererSettings]` 
+
+part till the next 
+
+`[/Script/WindowsTargetPlatform.WindowsTargetSettings] `
+
+and paste into your DefaultEngine.ini  you are working into the project you are working on your local PC . 
+
+
+*Don't copy paste entire file DefaultEngine.ini as it will cause problem/conflicts and Unreal might delete regenerate a new one automatically.*
           
 
 
