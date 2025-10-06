@@ -46,7 +46,7 @@ It compiles performance budgets, best practices, and proven optimization techniq
 # Official AMD FS3 for Unreal Engine by AMD 
   Use AMD FS3 provided by AMD but only works for **Windows** / **Vulkan** builds (DirectX 12/Vulkan)
 
-  #### **DirectX 11 not supported except for FSR1 **
+  **DirectX 11 not supported except for AMD-FSR1**
 
      
          
