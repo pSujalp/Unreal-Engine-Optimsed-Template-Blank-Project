@@ -1,9 +1,9 @@
 
 
-### Already made a project? Then just go to `Config/DefaultEngine.ini`
+### Already made a project? Then just go to `Config/DefaultEngine.ini` of this current Github repo project
 
 
-`Copy [/Script/Engine.RendererSettings] part till the next [] and paste into your DefaultEngine.ini of the project you are working into ` 
+`Copy [/Script/Engine.RendererSettings] part till the next [] and paste into your DefaultEngine.ini  you are working into the project you are working on your local PC . 
           
 
 
