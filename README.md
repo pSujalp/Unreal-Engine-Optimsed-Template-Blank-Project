@@ -22,14 +22,39 @@ It compiles performance budgets, best practices, and proven optimization techniq
 
 
  ## Use DirectX 11 instead of 12 on Windows platform 
-
-       Edit → Project Settings → Platforms → Windows 
+```
+      Edit → Project Settings → Platforms → Windows 
       
       Scroll down to the section “Default RHI
       
       Change it to DirectX 11.
       
       Click Save, then restart the editor.
+```
+
+ ##                           ( OR )
+
+# Official AMD FS3 for Unreal Engine by AMD 
+  Use AMD FS3 provided by AMD but only works for **Windows** / **Vulkan** builds
+
+     
+         
+<img width="256" height="288" alt="Image" src="https://github.com/user-attachments/assets/70524c20-22a2-411f-8e32-8b340ba649fb" />
+
+
+
+  
+   [Official FSR 3 plugin for Unreal Engine 5.6+ ](https://gpuopen.com/learn/ue-fsr3/)                                                      
+
+
+   [Official FSR 4 plugin for Unreal Engine 5.6+ ](https://gpuopen.com/learn/ue-fsr4/))
+   
+
+   
+
+  
+
+  
 
 ---
 
