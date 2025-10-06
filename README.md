@@ -48,6 +48,16 @@ It compiles performance budgets, best practices, and proven optimization techniq
 
 
    [Official FSR 4 plugin for Unreal Engine 5.6+ ](https://gpuopen.com/learn/ue-fsr4/))
+
+   
+
+   **Checkout their Fab/Unreal MarketPlace** - [Fab/Unreal MarketPlace](https://www.fab.com/sellers/GPUOpen)
+
+   # **Note** - **FSR1** works for all the platforms
+
+   ###      check what you can implement in your project by your version number (Has support for 4.27 , 5.1 and 5.6 )
+
+   
    
 
    
