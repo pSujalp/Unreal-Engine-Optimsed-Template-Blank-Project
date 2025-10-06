@@ -20,6 +20,10 @@
 			"TargetAllowList": [
 				"Editor"
 			]
+		},
+		{
+			"Name": "N10XSourceCodeAccess",
+			"Enabled": false
 		}
 	]
 }
