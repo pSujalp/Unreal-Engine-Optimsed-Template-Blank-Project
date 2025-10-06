@@ -21,7 +21,7 @@ It compiles performance budgets, best practices, and proven optimization techniq
 
 
 
- ## Use DirectX 11 instead of 12 on Windows plalform 
+ ## Use DirectX 11 instead of 12 on Windows platform 
 
        Edit → Project Settings → Platforms → Windows 
       
