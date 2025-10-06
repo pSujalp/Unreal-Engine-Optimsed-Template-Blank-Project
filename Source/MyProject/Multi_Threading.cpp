@@ -39,19 +39,23 @@ void AMulti_Threading::Tick(float DeltaTime)
 void AMulti_Threading::DoBackgroundWork(){
     Async(EAsyncExecution::Thread, []()
     {
-        
+        int32 ij = 0;
         for(size_t i=0 ; i< 100000000000000;++i)
         {
             for(size_t j=0 ; j< 100000000000000;++j)
             {
-                
-                
+                ij++;
+
+                if(ij > INT32_MAX)
+                {
+                    ij = 0;
+                }
             }
             
             
         }
         // Runs on a background thread// Simulate work
-        UE_LOG(LogTemp, Warning, TEXT("Background work finished!"));
+        UE_LOG(LogTemp, Warning, TEXT("Background work finished! %d"),ij);
     });
     GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("100000000000000 iterations completed"));
 
