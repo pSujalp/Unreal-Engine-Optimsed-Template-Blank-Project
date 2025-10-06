@@ -23,6 +23,14 @@ It compiles performance budgets, best practices, and proven optimization techniq
 
  ## Use DirectX 11 instead of 12 on Windows plalform 
 
+       Edit → Project Settings → Platforms → Windows 
+      
+      Scroll down to the section “Default RHI
+      
+      Change it to DirectX 11.
+      
+      Click Save, then restart the editor.
+
 ---
 
 ##  Performance Budgets
