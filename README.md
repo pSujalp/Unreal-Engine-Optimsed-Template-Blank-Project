@@ -1,4 +1,4 @@
-
+## This Blank project template will disable every unnecessary options and this template is not recommended for Photorealism/Realistic graphics . If you want a PSX style game , stylised game , Low poly style ,2D action , platformer then this template is for you . 
 
 ### Already made a project? Then just go to `Config/DefaultEngine.ini` of this current Github repo project
 
@@ -20,9 +20,9 @@ and paste into your DefaultEngine.ini  you are working into the project you are 
   *If you want to collab then pull request or put a issue in Issues tab .*
 
       
-### This template is made with a help of Experienced devs working at Epic Games for 12 years and above and it will be updated .
+#### This template is made with a help of Experienced devs working at Epic Games for 12 years and above and it will be updated .
 
-# This project works with Unreal 5.6.1 and tested on Mac Silicon (M4) .It also contains Multhreading code snippets.
+#### This project works with Unreal 5.6.1 and tested on Mac Silicon (M4) .It also contains Multhreading code snippets.
 
 
 
@@ -73,9 +73,35 @@ It compiles performance budgets, best practices, and proven optimization techniq
 
    **Checkout their Fab/Unreal MarketPlace** - [Fab/Unreal MarketPlace](https://www.fab.com/sellers/GPUOpen)
 
-   # **Note** - **FSR1** works for all the platforms
+   ### **Note** - **FSR1** works for all the platforms
 
-   ###      check what you can implement in your project by your version number (Has support for 4.27 , 5.1 and 5.6 )
+
+Determine which FSR version your project can implement by checking the Unreal Engine version (supports 4.27, 5.1, and 5.6).
+   ###      FSR versions compatible with your project
+Listed Unreal Engine versions you listed,corresponding AMD FidelityFX Super Resolution (FSR) versions you can implement: 
+
+## Unreal Engine 5.1 and 5.6
+For these versions, you can use the latest plugin from AMD:
+
+### FSR 4.0:
+
+As of August 2025, the AMD FSR 4 plugin supports Unreal Engine versions from 5.1 to 5.6.
+
+### FSR 3.1.5 and 2.3.4: 
+
+The FSR 4 plugin also contains FSR 3 and FSR 2, providing fallback support for these older versions. 
+
+## Unreal Engine 4.27
+
+For this older version of the engine, your options are more limited:
+
+### FSR 1.0:
+
+The original FSR plugin is available for Unreal Engine 4.27 and later.
+
+### FSR 2.2: 
+
+An FSR 2.2 plugin was made available for versions 4.26.2 and 4.27.2. 
 
    
    
